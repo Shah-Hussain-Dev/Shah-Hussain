@@ -52,7 +52,15 @@
 
     transition: all 0.2s linear;
   }
-
+   .mouse_scroll {
+    display: block;
+    margin: 0 auto;
+    width: 24px;
+    height: 100px;
+    position: absolute;
+    left: 47.2%;
+    bottom: -33%;
+}
   .hero h1 {
     font-size: 2.5rem;
     line-height: 0px;
@@ -61,6 +69,7 @@
     cursor: pointer;
     font-family: "Anton", sans-serif;
   }
+
 
   .item {
     display: flex;
